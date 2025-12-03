@@ -1,5 +1,4 @@
 {
-	"$schema": "https://schemas.wp.org/wp/6.9/theme.json",
 	"settings": {
 		"appearanceTools": true,
 		"color": {
@@ -803,16 +802,6 @@
 			"core/table": {
 				"css": "& thead{border-bottom-width: 1px;} & tfoot{border-top-width: 1px;} & + .wp-element-caption{text-align:center;}"
 			},
-			"core/table-of-contents": {
-				"spacing": {
-					"padding": {
-						"left": "var(--wp--preset--spacing--50)"
-					}
-				},
-				"typography": {
-					"fontSize": "var(--wp--preset--font-size--small)"
-				}
-			},
 			"core/tag-cloud": {
 				"css": ".wp-block-tag-cloud.is-style-outline{font-size:var(--wp--preset--font-size--small)} &.wp-block-tag-cloud.is-style-outline a {padding: 2px 8px 0;} &.wp-block-tag-cloud.is-style-outline a:hover {color: var(--wp--preset--color--base);background-color: var(--wp--preset--color--primary);}"
 			},
@@ -992,5 +981,6 @@
 			"title": "Post Meta"
 		}
 	],
-	"version": 3
+	"version": 3,
+	"$schema": "https://schemas.wp.org/wp/6.9/theme.json"
 }
